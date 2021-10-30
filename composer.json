@@ -1,0 +1,18 @@
+{
+    "name": "juliano/php-elasticsearch-kibana",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "elasticsearch/elasticsearch": "~7.0"
+    },
+    "authors": [
+        {
+            "name": "juliano basso",
+            "email": "julianofritz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
